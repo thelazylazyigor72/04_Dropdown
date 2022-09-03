@@ -9,7 +9,7 @@ function App() {
   //actually its uneccessary, but in case of future features why not to make it state value
   const [questions,setQuestions] = useState(data)
 
-  //inside w/ map method we just populate components, setting key for them, and also passing all objects fields into it w/ spread operator
+  //insidee w/ map method we just populate components, setting key for them, and also passing all objects fields into it w/ spread operator
   return (
     <main>
       <div className='container'>
